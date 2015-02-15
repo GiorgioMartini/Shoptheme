@@ -115,7 +115,11 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
+{% comment %}
   max-width: 62.5em;
+{% endcomment %}
+
+  max-width: 100%;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -1462,6 +1466,17 @@ meta.foundation-mq-topbar {
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
       margin-top: 45px; }
+
+
+#site-title{
+  text-align: center;
+}
+
+
+.upper-top-bar{
+height: 30px ;
+background-color: red;
+}
 
 .top-bar {
   overflow: hidden;
